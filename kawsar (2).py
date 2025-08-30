@@ -9,14 +9,14 @@ from telegram.error import TimedOut
 import asyncio
 
 # === CONFIG ===
-BOT_TOKEN = '7844811765:AAEfYD3XnW70LvvzIIDvZEwxBZ1WuHh7FJY'
-CHAT_ID = '-1002375219328'
-USERNAME = 'Msdyddf'
-PASSWORD = 'Msdyddf'
-BASE_URL = "http://94.23.120.156"
+BOT_TOKEN = '8342703229:AAHcfboJO9MFK-bO8GVmVtmnHHLhsmAHEVU'
+CHAT_ID = '-1002537198116'
+USERNAME = 'Nayemislam1010'
+PASSWORD = 'Aaccaacc12$'
+BASE_URL = "http://193.70.33.154"
 LOGIN_PAGE_URL = BASE_URL + "/ints/login"
 LOGIN_POST_URL = BASE_URL + "/ints/signin"
-DATA_URL = BASE_URL + "/ints/client/res/data_smscdr.php"
+DATA_URL = BASE_URL + "/ints/agent/res/data_smscdr.php"
 
 bot = Bot(token=BOT_TOKEN)
 session = requests.Session()
@@ -146,13 +146,13 @@ async def sent_messages():
                         f"🔧 <b>Service:</b> {escape_html(service)}\n"
                         f"🔐 <b>OTP Code:</b> <code>{escape_html(otp)}</code>\n"
                         f"📝 <b>Msg:</b> <i>{escape_html(message)}</i>\n\n"
-                        "<b>P0WERED BY</b> @Mohammed_Kawser"
+                        
                     )
 
                     # Buttons (inline keyboard)
                     keyboard = InlineKeyboardMarkup([
-                        [InlineKeyboardButton("👨‍💻 Bot Owner", url="https://t.me/Mohammed_Kawser")],
-                        [InlineKeyboardButton("🔁 Backup Channel", url="https://t.me/hjfyhfggg")]
+                        [InlineKeyboardButton("👨‍💻 Bot Owner", url="3")],
+                        [InlineKeyboardButton("🔁 Backup Channel", url="r")]
                     ])
 
                     try:
