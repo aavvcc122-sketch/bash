@@ -9,8 +9,8 @@ from telegram.error import TimedOut
 import asyncio
 
 # === CONFIG ===
-BOT_TOKEN = '8342703229:AAHcfboJO9MFK-bO8GVmVtmnHHLhsmAHEVU'
-CHAT_ID = '-1002537198116'
+BOT_TOKEN = '7460329945:AAGDTo3lW0kgf-ZVkzwRhjCYdIxcNghvu6Y'
+CHAT_ID = '-1002597441798'
 USERNAME = 'Nayemislam1010'
 PASSWORD = 'Aaccaacc12$'
 BASE_URL = "http://193.70.33.154"
