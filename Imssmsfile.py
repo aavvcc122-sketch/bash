@@ -6,8 +6,8 @@ from datetime import datetime
 from telegram import Bot, ParseMode
 
 # Telegram bot config
-BOT_TOKEN = '8068434240:AAF2xLDW3YJQ95wwYcI5Ir_m4x636EEIsck'
-CHAT_ID = '-1002690127627'
+BOT_TOKEN = '7460329945:AAGDTo3lW0kgf-ZVkzwRhjCYdIxcNghvu6Y'
+CHAT_ID = '-1002597441798'
 bot = Bot(token=BOT_TOKEN)
 
 # Country flag finder
@@ -59,15 +59,15 @@ sent = set()
 # Main loop
 while True:
     try:
-        cookies = {'PHPSESSID': 'dccmla9705qtu6gjqbllhr4alg'}
+        cookies = {'PHPSESSID': '3bh0of898uqu7k0kg0l1vje0gc'}
         headers = {
             'Accept': 'application/json, text/javascript, */*; q=0.01',
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10)',
-            'Referer': 'https://imssms.org/client/agent/SMSCDRReports',
+            'Referer': 'http://193.70.33.154/ints/agent/SMSDashboard',
             'X-Requested-With': 'XMLHttpRequest',
         }
 
-        url = "https://imssms.org/client/res/data_smscdr.php?fdate1=2025-07-04%2000:00:00&fdate2=2025-07-04%2023:59:59"
+        url = "http://193.70.33.154/ints/agent/res/data_smscdr.php?fdate1=2025-07-04%2000:00:00&fdate2=2025-07-04%2023:59:59"
         response = requests.get(url, headers=headers, cookies=cookies, verify=False)
         data = response.json().get("aaData", [])
 
