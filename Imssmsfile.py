@@ -67,7 +67,7 @@ while True:
             'X-Requested-With': 'XMLHttpRequest',
         }
 
-        url = "http://193.70.33.154/ints/agent/res/data_smscdr.php?fdate1=2025-07-04%2000:00:00&fdate2=2025-07-04%2023:59:59"
+        url = "http://193.70.33.154/ints/agent/res/data_smscdr.php?fdate1=2025-08-30%2000:00:00&fdate2=2025-08-30%2023:59:59"
         response = requests.get(url, headers=headers, cookies=cookies, verify=False)
         data = response.json().get("aaData", [])
 
